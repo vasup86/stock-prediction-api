@@ -1,7 +1,6 @@
 
-from flask import Flask, abort, request, jsonify
+from flask import Flask, request, jsonify
 from flask_cors import CORS, cross_origin
-
 
 from forecast import predict
 
@@ -31,4 +30,4 @@ def homepage():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
