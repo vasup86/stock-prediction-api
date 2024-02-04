@@ -8,14 +8,20 @@ This project is for education purpose only and the available API's is for person
 Personal project that enables users to get stock prediction data for the next 30 days. The project is based on Meta's [Prophet](https://facebook.github.io/prophet/) project. The project uses upto 5 year's worth of opening price data for a stock and predicts the opening price for the next 30 days. A frontend website is developed to visualize the data, [here](https://github.com/vasup86/Stock-Prediction-Website).
 
 ## Project Support Features
-REST API end point to get last 6 months opening price and projected opening price for the next 30 days.
+REST API end point returns last 6 months opening price and projected opening price for the next 30 days.
 
 ## Installation Guide  
 * Clone the repository   
 * The master branch is the most stable branch at any given time, ensure you're working from it.  
+* Create a virtual environment using `python -m venv name_of_your_env` 
 * Run `pip install -r requirements.txt` all dependencies 
 	* Windows user might also need to add `pywin32==306` to the `requirements.txt` file.
 * Alternatively you can access the API which is hosted on render, [here](https://stock-prediction-flask.onrender.com/).
+
+### Project Structure
+- `app.py` contains the endpoints and handle's the requests.
+- `forecast.py` machine learning script to predict the price.
+- `requirements.txt` contains the packages used for this project.
 
 ## Deployment
 
