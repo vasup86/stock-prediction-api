@@ -75,12 +75,12 @@ For a valid ticker value, the response will contain  a `result` key which holds 
 		"date": "Mon, 31 Jul 2023 00:00:00 GMT",
 	        "forecast": null,
 	        "past": 195.537995145902
-		},{
+	},{
 		"date": "Tue, 01 Aug 2023 00:00:00 GMT",
 	        "forecast": null,
 	        "past": 195.7175151124968
-		}, ....., 
-		{ 
+	}, ....., 
+	{ 
 		"date": "Sat, 03 Feb 2024 00:00:00 GMT",
 	        "forecast": 199.13563380619226,
 	        "past": null
