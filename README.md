@@ -5,7 +5,7 @@
 This project is for education purpose only and the available API's is for personal use only. The data collected using [yfinance](https://pypi.org/project/yfinance/) is under Yahoo!'s terms and conditions.
 
 ## Introduction
-Personal project that enables users to get stock prediction data for the next 30 days. The project is based on Meta's [Prophet](https://facebook.github.io/prophet/) project. The project uses upto 5 year's worth of opening price data for a stock and predicts the opening price for the next 30 days. A frontend website is developed to visualize the data, [here](https://github.com/vasup86/Stock-Prediction-Website).
+Personal project that enables users to get stock prediction data for the next 30 days. The project is based on Meta's [Prophet](https://facebook.github.io/prophet/) project. The project uses upto 5 year's worth of opening price data for a stock and predicts the opening price for the next 30 days. A frontend website is developed to visualize the data, [Link](https://master--stock-predictor-react.netlify.app/), [Repo](https://github.com/vasup86/Stock-Prediction-Website).
 
 ## Project Support Features
 REST API end point returns last 6 months opening price and projected opening price for the next 30 days.
